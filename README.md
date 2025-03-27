@@ -1,36 +1,59 @@
 
-Student Record System 🎓
-A simple desktop application built with Python (Tkinter) for managing student records. This application allows users to add, view, update, and delete student details with a user-friendly interface.
+# 📌 Student Record System  
 
-📌 Features
-✅ Add new student records (Name, Age, Grade, etc.)
-✅ View all stored student records in a tabular format
-✅ Update existing student details
-✅ Delete student records when no longer needed
-✅ Simple and clean Tkinter GUI
+### 🔹 Overview  
+The **Student Record System** is a simple **GUI-based application** built with **Python, Tkinter, and SQLite** to manage student records efficiently. Users can **add, view, and delete student records** with an easy-to-use interface.  
 
-🔧 Technologies Used
-Python 🐍
+### 🔹 Features  
+✅ **Add Students** – Store student details (Name, Age, Grade).  
+✅ **View Student Records** – Displays all students in a table format.  
+✅ **Delete Student Records** – Remove selected student records.  
+✅ **SQLite Database Integration** – Persistent data storage.  
+✅ **Tkinter GUI** – Simple and user-friendly interface.  
 
-Tkinter (GUI Library)
+### 🔹 Tech Stack  
+🛢 **Database:** SQLite  
+🖥 **GUI Framework:** Tkinter  
+💻 **Language:** Python  
 
-SQLite (For database storage)
+### 🔹 Installation & Setup  
+#### 1️⃣ Install Python  
+Ensure **Python 3.x** is installed on your system.  
 
-📂 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Student_Record_System.git
-cd Student_Record_System
-
-2️⃣ Install Dependencies
+#### 2️⃣ Install Dependencies  
+```sh
 pip install tk
-(Tkinter is included in Python by default, but ensure it's installed for your version.)
+```
 
-3️⃣ Run the Application
-python student_record.py
+#### 3️⃣ Run the Application  
+```sh
+python student_record_system.py
+```
 
-📜 License
-This project is open-source and free to use.
+### 🔹 Usage  
+1️⃣ **Enter Student Details** (Name, Age, Grade).  
+2️⃣ **Click "Add Student"** to save the record.  
+3️⃣ **View Records** in the table below.  
+4️⃣ **Select a Student & Click "Delete Student"** to remove the record.  
 
-📬 Contact
-📧 Email: mosesjohnson0104@gmail.com  
-🔗 GitHub: mosesjohnson0104
+### 🔹 Database Schema  
+The system uses a **single SQLite table**:  
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    grade TEXT NOT NULL
+);
+```
+
+### 🔹 Future Enhancements  
+🔹 **Update Student Records**  
+🔹 **Search Functionality**  
+🔹 **Export Data to CSV**  
+🔹 **Modern UI with Custom Themes**  
+
+### 🔹 Screenshots  
+📸 **(Include Screenshots of the GUI Here)**  
+
+### 🔹 Project Demo  
+📍 **GitHub Repository:** [🔗 [Your GitHub Link Here](https://github.com/mosesjohnson0104/Student-Record-System)]  
