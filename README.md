@@ -56,4 +56,4 @@ CREATE TABLE students (
 📸 **(Include Screenshots of the GUI Here)**  
 
 ### 🔹 Project Demo  
-📍 **GitHub Repository:** [🔗 [Your GitHub Link Here](https://github.com/mosesjohnson0104/Student-Record-System)]  
+📍 **GitHub Repository:**https://github.com/mosesjohnson0104/Student-Record-System  
